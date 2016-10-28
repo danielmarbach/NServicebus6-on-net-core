@@ -1,0 +1,17 @@
+{
+	"version": "1.0.0-*",
+	"buildOptions": {
+		"emitEntryPoint": true
+	},
+
+    "dependencies": {
+        "Imperugo.Spike.NServicebus.NetCore.Handlers": "1.0.0-*",
+        "Imperugo.Spike.NServicebus.NetCore.Messages": "1.0.0-*",
+        "NServiceBus": "6.0.0",
+        "NServiceBus.Azure.Transports.WindowsAzureServiceBus": "7.0.2"
+    },
+
+	"frameworks": {
+		"net46": {	}
+	}
+}
